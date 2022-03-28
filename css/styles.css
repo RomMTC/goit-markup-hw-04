@@ -246,7 +246,7 @@ p:last-child {
   padding-bottom: 30px;
 }
 .main-team-img {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .main-team-names {
   margin-bottom: 10px;
