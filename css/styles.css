@@ -112,6 +112,10 @@ p:last-child {
 .header-contact:focus {
   color: var(--accent-color);
 }
+.icon-mail {
+  margin-right: 10px;
+  fill: currentColor;
+}
 /* Main Content */
 /* Main Hero */
 .main-hero {
@@ -126,7 +130,7 @@ p:last-child {
     url(../img/top-bg-img.jpg);
   /* background-image: url(../img/top-bg-img.jpg); */
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero-title {
