@@ -132,7 +132,7 @@ p:last-child {
   /* background-color: rgba(47, 48, 58, 0.4); */
 
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/icon/icons.svg#imgoverlay), url(/img/top-bg-img.jpg);
+    url(../img/icon/icons.svg#imgoverlay), url(../img/top-bg-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
