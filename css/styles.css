@@ -254,7 +254,7 @@ p:last-child {
 }
 .main-team-card {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .main-team-names {
   margin-bottom: 10px;
@@ -270,7 +270,7 @@ p:last-child {
   text-align: center;
 }
 .social-container {
-  margin-top: 16px;
+  margin-top: 0px;
   margin-left: 32px;
   margin-bottom: 30px;
 }
@@ -299,21 +299,17 @@ p:last-child {
 .social-link-photo {
   fill: #afb1b8;
 }
-/* .social-link-photo:hover,
-.social-link-photo:focus {
-  fill: #ffffff;
-} */
 .social-link-item:hover,
-.social-link-item:focus,
-.social-link-photo:hover,
-.social-link-photo:focus {
+.social-link-item:focus {
   background-color: var(--accent-color);
+}
+.social-link-item:hover .social-link-photo,
+.social-link-item:focus .social-link-photo {
   fill: #ffffff;
-  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /* Our Cients */
 .our-clients-container {
-  padding: 160px 0 88px 0;
+  padding: 94px 0 94px 0;
 }
 
 .our-clients-header {
@@ -350,17 +346,22 @@ p:last-child {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.our-clients-photo {
-  fill: #afb1b8;
-}
-.our-clients-photo:hover,
-.our-clients-photo:focus {
-  fill: var(--accent-color);
-}
 .our-clients-item:hover,
 .our-clients-item:focus {
   border-color: var(--accent-color);
 }
+.our-clients-item:hover .our-clients-photo,
+.our-clients-item:focus .our-clients-photo {
+  fill: var(--accent-color);
+}
+.our-clients-photo {
+  fill: #afb1b8;
+}
+/* .our-clients-photo:hover,
+.our-clients-photo:focus {
+  fill: var(--accent-color);
+} */
+
 /* .our-clients-logo:nth-child {
   margin-right: 0;
 }
